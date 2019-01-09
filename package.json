@@ -1,0 +1,22 @@
+{
+  "name": "api-testr",
+  "version": "0.0.0",
+  "description": "A Node.js app using Express 4",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devserver": "nodemon"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
