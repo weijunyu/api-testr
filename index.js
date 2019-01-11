@@ -6,7 +6,7 @@ const Router = require('./routes');
 const app = express();
 
 Router(app)
-  .use(cors)
+  .use(cors())
   .use((err, req, res, next) => {
     res.status(500).send({error: err.message});
   })
