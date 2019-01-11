@@ -37,5 +37,10 @@ function Router(app) {
             payload: payload
         })
     })
+    app.get('/headers', (req, res) => {
+        res.json({
+            headers: req.headers
+        })
+    })
     return app;
 }
